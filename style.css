@@ -1,0 +1,270 @@
+/*Universal*/
+
+*{
+  font-size: 16px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.50rem;
+  font-family: 'NHL', 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 0 white;
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 2rem;
+  font-family: 'NHL', 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: orange;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  background-color: rgb(35, 67, 147);
+}  
+
+img {
+  width: 350px;
+  height:300px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+p a{
+  color:orange;
+}
+
+  /*Header*/
+
+  header {
+    display: flex;
+    opacity: 85%;
+  }
+
+
+  header .nav-bar {
+    font-family: 'NHL';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: orange;
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .nav-bar p {
+    left: 25rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  li {
+    color: orange;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0 white;
+  }
+
+  /*Intro*/
+  
+  .head {
+    height: 31.25rem;
+    padding-top: 1rem;
+    background-image: url('resources/Hockey\ Club.jpg');
+    background-position: 50%;
+    background-repeat: none;
+    width: 100%;
+  }
+    
+  .head h1 {
+    color: orange;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+
+  /*Team*/
+  
+  #team {
+    padding: 0 1rem;
+    color: White;
+    padding-top: 1rem;
+  }
+
+  #team img {
+    border: 4px solid rgb(35, 67, 147);
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+  }
+
+  /*Events*/
+  
+  #events {
+    background-color: teal;
+    padding: 0 1rem;
+    color: White;
+    padding-top: 1rem;
+  }
+
+  #events img {
+    border: 4px solid teal;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+  }
+
+
+  /*Free Skate*/
+  
+  #free-skate {
+    padding: 0 1rem;
+    color: White;
+    padding-top: 1rem;
+  }
+
+  #free-skate img {
+    border: 4px solid rgb(35, 67, 147);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /*Rink Info*/
+  
+  #rink-info {
+    background-color: teal;
+    padding: 0 1rem;
+    color: White;
+    padding-top: 1rem;
+  }
+
+  #rink-info img {
+    border: 4px solid teal;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+  }
+
+
+  /*Registration*/
+  
+  #registration {
+    padding: 0 1rem;
+    color: White;
+    padding-top: 1rem;
+  }  
+  #registration img {
+    border: 4px solid rgb(35, 67, 147);
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    width: 50%;
+
+  }
+
+
+
+  /*Footer*/
+
+  footer .nav-bar {
+    font-family: 'NHL';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: orange;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  footer .nav-bar p {
+    left: 25rem;
+  }
+
+  /*Responsiveness*/
+  
+  @media only screen and (max-width: 1120px) and (min-width: 750px) {
+  img {
+    height: 50%;
+    width: 50%;
+  }
+
+  }
+  
+  @media only screen and (max-width: 650px) {
+  
+  li {
+    font-size: 1.5rem;
+  }
+  
+  }
+
+  @media only screen and (max-width: 500px) {
+  
+    li {
+      font-size: 1rem;
+    }
+    
+    }
+  
+  @media only screen and (max-width: 750px) {
+  footer {
+    display: none;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+  }
+
+  }
